@@ -1,0 +1,1089 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Skein rootNode="node-0x02E76008" xmlns="http://www.logicalshift.org.uk/IF/Skein">
+  <generator>Inform 7 for Windows</generator>
+  <activeNode nodeId="node-0x02E76008"/>
+  <item nodeId="node-0x02E76008">
+    <command xml:space="preserve">- start -</command>
+    <result xml:space="preserve">The wind gently blows over you, sending a chill through your body. You stir. Silence. The wind blows again, slightly harder, enough to wake you. You come to and slowly get yourself off the ground. You look around, completely unfamiliar to all that surrounds you...&#x000A;Thermolysis&#x000A;An Interactive Fiction by Justin Tennant&#x000A;Release 1 / Serial number 151223 / Inform 7 build 6L38 (I6/v6.33 lib 6/12N) SD&#x000A;&#x000A;Railroad crossing&#x000A;You stand next to a railway line which crosses a dirt road. The railroad runs from south to north; the dirt road east to west. There is a single wig-wag at the intersection.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve">The wind gently blows over you, sending a chill through your body. You stir. Silence. The wind blows again, slightly harder, enough to wake you. You come to and slowly get yourself off the ground. You look around, completely unfamiliar to all that surrounds you...&#x000A;Thermolysis&#x000A;An Interactive Fiction by Justin Tennant&#x000A;Release 1 / Serial number 151201 / Inform 7 build 6L38 (I6/v6.33 lib 6/12N) SD&#x000A;&#x000A;Railroad Crossing&#x000A;You stand next to a railway line which crosses a dirt road. The railroad runs from south to north; the dirt road east to west. There is a single wig-wag at the intersection.&#x000A;&#x000A;&gt;</commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="19">NO</temporary>
+    <children>
+      <child nodeId="node-0x02E76B60"/>
+      <child nodeId="node-0x02E7FB08"/>
+      <child nodeId="node-0x02E822B8"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02E76B60">
+    <command xml:space="preserve">examine wig-wag</command>
+    <result xml:space="preserve">The tall iron crossing signal stands straight at the corner of the intersection, awaiting a train to come. A steel disc painted white with a red light at its center hangs from the top of the iron frame, serving as a pendulum. The red light is off, and the wig-wag is motionless.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02E76BD0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02E76BD0">
+    <command xml:space="preserve">look</command>
+    <result xml:space="preserve">Railroad crossing&#x000A;You stand next to a railway line which crosses a dirt road. The railroad runs from south to north; the dirt road east to west. There is a single wig-wag at the intersection.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02E76CB8"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02E76CB8">
+    <command xml:space="preserve">move east</command>
+    <result xml:space="preserve">You must name something more substantial.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02E89DD8"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02E89DD8">
+    <command xml:space="preserve">go east</command>
+    <result xml:space="preserve">Forest&#x000A;You can see a match here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02E89E48"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02E89E48">
+    <command xml:space="preserve">pick up match</command>
+    <result xml:space="preserve">Taken.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02E89F10"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02E89F10">
+    <command xml:space="preserve">inventory</command>
+    <result xml:space="preserve">You are carrying:&#x000A;  a match&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+  </item>
+  <item nodeId="node-0x02E7FB08">
+    <command xml:space="preserve">east</command>
+    <result xml:space="preserve">Forest&#x000A;Tall, motionless trees branch above and around you. You find a single stump amongst the dense and seemingly endless forest.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02E7FB78"/>
+      <child nodeId="node-0x02E80680"/>
+      <child nodeId="node-0x0DD968F0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02E7FB78">
+    <command xml:space="preserve">examine stump</command>
+    <result xml:space="preserve">A lone stump sits amongst its living, taller counterparts. Its roots are thick and numerous, extending far beyond the other trees" roots reach. Countless rings circle round the top of the stump. Had the tree that once lived here not been felled, it would have easily been the oldest in the forest.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02E7FC80"/>
+      <child nodeId="node-0x02E80760"/>
+      <child nodeId="node-0x02E80990"/>
+      <child nodeId="node-0x0DD96650"/>
+      <child nodeId="node-0x118BF7A0"/>
+      <child nodeId="node-0x118BFC00"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02E7FC80">
+    <command xml:space="preserve">take stump note</command>
+    <result xml:space="preserve">I only understood you as far as wanting to take the stump.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02E7FCF0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02E7FCF0">
+    <command xml:space="preserve">take note</command>
+    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02E7FE88"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02E7FE88">
+    <command xml:space="preserve">look</command>
+    <result xml:space="preserve">Forest&#x000A;Tall, motionless trees branch above and around you. You find a single stump amongst the dense and seemingly endless forest.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02E80238"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02E80238">
+    <command xml:space="preserve">examine</command>
+    <result xml:space="preserve">(the stump)&#x000A;A lone stump sits amongst its living, taller counterparts. Its roots are thick and numerous, extending far beyond the other trees" roots reach. Countless rings circle round the top of the stump. Had the tree that once lived here not been felled, it would have easily been the oldest in the forest.&#x000A;&#x000A;There appears to be a piece of paper folded and tucked into a sliver on the stump rings.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02E80348"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02E80348">
+    <command xml:space="preserve">examine the stump note</command>
+    <result xml:space="preserve">I only understood you as far as wanting to examine the stump.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02E80450"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02E80450">
+    <command xml:space="preserve">examine note stump</command>
+    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02E806F0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02E806F0">
+    <command xml:space="preserve">examine notestump</command>
+    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02E80530"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02E80530">
+    <command xml:space="preserve">examine stumpnote</command>
+    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+  </item>
+  <item nodeId="node-0x02E80760">
+    <command xml:space="preserve">take first note</command>
+    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02E807D0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02E807D0">
+    <command xml:space="preserve">i</command>
+    <result xml:space="preserve">You are carrying nothing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02E80AE0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02E80AE0">
+    <command xml:space="preserve">t</command>
+    <result xml:space="preserve">That's not a verb I recognise.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02E805A0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02E805A0">
+    <command xml:space="preserve">take</command>
+    <result xml:space="preserve">(the stump)&#x000A;That's hardly portable.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02E804C0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02E804C0">
+    <command xml:space="preserve">examine first note</command>
+    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02E80840"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02E80840">
+    <command xml:space="preserve">examine note</command>
+    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02E80610"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02E80610">
+    <command xml:space="preserve">open stump</command>
+    <result xml:space="preserve">It isn't something you can open.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+  </item>
+  <item nodeId="node-0x02E80990">
+    <command xml:space="preserve">take paper</command>
+    <result xml:space="preserve">Taken.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02E80B50"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02E80B50">
+    <command xml:space="preserve">i</command>
+    <result xml:space="preserve">You are carrying:&#x000A;  a first note&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02E803E0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02E803E0">
+    <command xml:space="preserve">read first note</command>
+    <result xml:space="preserve">You read: Never until the mankind making&#x000A; Bird beast and flower&#x000A; Fathering and all humbling darkness&#x000A; Tells with silence the last light breaking&#x000A; And the still hour&#x000A; Is come of the sea tumbling in harness&#x000A; &#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02E80A00"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02E80A00">
+    <command xml:space="preserve">examine first note</command>
+    <result xml:space="preserve">A palm-sized parchment neatly folded, and appears have writing on the inside. It was found tucked into the single stump in the forest.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+  </item>
+  <item nodeId="node-0x0DD96650">
+    <command xml:space="preserve">i</command>
+    <result xml:space="preserve">You are carrying nothing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x0DD962D0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x0DD962D0">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">You can't go that way.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x0DD96340"/>
+    </children>
+  </item>
+  <item nodeId="node-0x0DD96340">
+    <command xml:space="preserve">x</command>
+    <result xml:space="preserve">(the first note)&#x000A;A palm-sized parchment neatly folded, and appears have writing on the inside. It was found tucked into the single stump in the forest.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x0DD96810"/>
+    </children>
+  </item>
+  <item nodeId="node-0x0DD96810">
+    <command xml:space="preserve">look</command>
+    <result xml:space="preserve">Forest&#x000A;Tall, motionless trees branch above and around you. You find a single stump amongst the dense and seemingly endless forest.&#x000A;&#x000A;You can see the first note here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x0DD96500"/>
+    </children>
+  </item>
+  <item nodeId="node-0x0DD96500">
+    <command xml:space="preserve">take first nte</command>
+    <result xml:space="preserve">I only understood you as far as wanting to take the first note.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x0DD96420"/>
+    </children>
+  </item>
+  <item nodeId="node-0x0DD96420">
+    <command xml:space="preserve">take first note</command>
+    <result xml:space="preserve">Taken.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x0DD96570"/>
+    </children>
+  </item>
+  <item nodeId="node-0x0DD96570">
+    <command xml:space="preserve">read first note</command>
+    <result xml:space="preserve">As you unfold the parchment, a single match slips out into your hands.&#x000A;Match added to your inventory.&#x000A;&#x000A;You read: &#x000A;Never until the mankind making&#x000A; Bird beast and flower&#x000A; Fathering and all humbling darkness&#x000A; Tells with silence the last light breaking&#x000A; And the still hour&#x000A; Is come of the sea tumbling in harness&#x000A; &#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+  </item>
+  <item nodeId="node-0x118BF7A0">
+    <command xml:space="preserve">x</command>
+    <result xml:space="preserve">(the first note)&#x000A;A palm-sized parchment neatly folded, and appears have writing on the inside. It was found tucked into the single stump in the forest.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x118BF110"/>
+    </children>
+  </item>
+  <item nodeId="node-0x118BF110">
+    <command xml:space="preserve">look</command>
+    <result xml:space="preserve">Forest&#x000A;Tall, motionless trees branch above and around you. You find a single stump amongst the dense and seemingly endless forest.&#x000A;&#x000A;You can see the first note here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+  </item>
+  <item nodeId="node-0x118BFC00">
+    <command xml:space="preserve">look</command>
+    <result xml:space="preserve">Forest&#x000A;Tall, motionless trees branch above and around you. You find a single stump amongst the dense and seemingly endless forest.&#x000A;&#x000A;You can see the first note here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x118BF500"/>
+    </children>
+  </item>
+  <item nodeId="node-0x118BF500">
+    <command xml:space="preserve">take note</command>
+    <result xml:space="preserve">Taken.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x118BF420"/>
+    </children>
+  </item>
+  <item nodeId="node-0x118BF420">
+    <command xml:space="preserve">read note</command>
+    <result xml:space="preserve">As you unfold the parchment, a single match slips out into your hands.&#x000A;&#x000A;Match added to your inventory.&#x000A;&#x000A;You read: &#x000A;Never until the mankind making&#x000A;Bird beast and flower&#x000A;Fathering and all humbling darkness&#x000A;Tells with silence the last light breaking&#x000A;And the still hour&#x000A;Is come of the sea tumbling in harness&#x000A;&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+  </item>
+  <item nodeId="node-0x02E80680">
+    <command xml:space="preserve">look</command>
+    <result xml:space="preserve">Forest&#x000A;Tall, motionless trees branch above and around you. You find a single stump amongst the dense and seemingly endless forest.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02E808B0"/>
+      <child nodeId="node-0x118BF960"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02E808B0">
+    <command xml:space="preserve">look stump</command>
+    <result xml:space="preserve">A lone stump sits amongst its living, taller counterparts. Its roots are thick and numerous, extending far beyond the other trees" roots reach. Countless rings circle round the top of the stump. Had the tree that once lived here not been felled, it would have easily been the oldest in the forest.&#x000A;&#x000A;There appears to be a piece of paper folded and tucked into a sliver on the stump rings.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02E80920"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02E80920">
+    <command xml:space="preserve">take piece of paper</command>
+    <result xml:space="preserve">Taken.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02E80A70"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02E80A70">
+    <command xml:space="preserve">inventory</command>
+    <result xml:space="preserve">You are carrying:&#x000A;  a first note&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02E82398"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02E82398">
+    <command xml:space="preserve">read first note</command>
+    <result xml:space="preserve">As you unfold the parchment, a single match slips out into your hands.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02E819F8"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02E819F8">
+    <command xml:space="preserve">i</command>
+    <result xml:space="preserve">You are carrying:&#x000A;  a match&#x000A;  a first note&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02E82408"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02E82408">
+    <command xml:space="preserve">read first note</command>
+    <result xml:space="preserve">You read: Never until the mankind making&#x000A; Bird beast and flower&#x000A; Fathering and all humbling darkness&#x000A; Tells with silence the last light breaking&#x000A; And the still hour&#x000A; Is come of the sea tumbling in harness&#x000A; &#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02E81FA8"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02E81FA8">
+    <command xml:space="preserve">west</command>
+    <result xml:space="preserve">Railroad crossing&#x000A;You stand next to a railway line which crosses a dirt road. The railroad runs from south to north; the dirt road east to west. There is a single wig-wag at the intersection.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02E82478"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02E82478">
+    <command xml:space="preserve">look west</command>
+    <result xml:space="preserve">You see the road continues to some destroyed buildings.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02E82168"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02E82168">
+    <command xml:space="preserve">go west</command>
+    <result xml:space="preserve">Ruins&#x000A;You can see some unknown ruins and a ghost here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02E821D8"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02E821D8">
+    <command xml:space="preserve">examine ghost</command>
+    <result xml:space="preserve">The ghost says nothing but hands you a lantern with a wick but no oil.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+  </item>
+  <item nodeId="node-0x118BF960">
+    <command xml:space="preserve">examine stump</command>
+    <result xml:space="preserve">A lone stump sits amongst its living, taller counterparts. Its roots are thick and numerous, extending far beyond the other trees roots reach. Countless rings circle round the top of the stump. Had the tree that once lived here not been felled, it would have easily been the oldest in the forest.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x118BF2D0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x118BF2D0">
+    <command xml:space="preserve">look</command>
+    <result xml:space="preserve">Forest&#x000A;Tall, motionless trees branch above and around you. You find a single stump amongst the dense and seemingly endless forest.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x118BF340"/>
+    </children>
+  </item>
+  <item nodeId="node-0x118BF340">
+    <command xml:space="preserve">look</command>
+    <result xml:space="preserve">Forest&#x000A;Tall, motionless trees branch above and around you. You find a single stump amongst the dense and seemingly endless forest.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x118BF030"/>
+    </children>
+  </item>
+  <item nodeId="node-0x118BF030">
+    <command xml:space="preserve">examine stump</command>
+    <result xml:space="preserve">A lone stump sits amongst its living, taller counterparts. Its roots are thick and numerous, extending far beyond the other trees roots reach. Countless rings circle round the top of the stump. Had the tree that once lived here not been felled, it would have easily been the oldest in the forest.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x118BF0A0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x118BF0A0">
+    <command xml:space="preserve">take note</command>
+    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x118BFB20"/>
+    </children>
+  </item>
+  <item nodeId="node-0x118BFB20">
+    <command xml:space="preserve">west</command>
+    <result xml:space="preserve">Railroad crossing&#x000A;You stand next to a railway line which crosses a dirt road. The railroad runs from south to north; the dirt road east to west. There is a single wig-wag at the intersection.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x118BFB90"/>
+    </children>
+  </item>
+  <item nodeId="node-0x118BFB90">
+    <command xml:space="preserve">west</command>
+    <result xml:space="preserve">Ruins&#x000A;You can see some unknown ruins and a ghost here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x118BF260"/>
+    </children>
+  </item>
+  <item nodeId="node-0x118BF260">
+    <command xml:space="preserve">talk to ghost</command>
+    <result xml:space="preserve">The ghost says nothing but hands you a lantern.&#x000A;Lantern added to your inventory.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x118BF880"/>
+    </children>
+  </item>
+  <item nodeId="node-0x118BF880">
+    <command xml:space="preserve">east</command>
+    <result xml:space="preserve">Railroad crossing&#x000A;You stand next to a railway line which crosses a dirt road. The railroad runs from south to north; the dirt road east to west. There is a single wig-wag at the intersection.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x118BEEE0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x118BEEE0">
+    <command xml:space="preserve">east</command>
+    <result xml:space="preserve">Forest&#x000A;Tall, motionless trees branch above and around you. You find a single stump amongst the dense and seemingly endless forest.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x118BF180"/>
+    </children>
+  </item>
+  <item nodeId="node-0x118BF180">
+    <command xml:space="preserve">examine stump</command>
+    <result xml:space="preserve">A lone stump sits amongst its living, taller counterparts. Its roots are thick and numerous, extending far beyond the other trees roots reach. Countless rings circle round the top of the stump. Had the tree that once lived here not been felled, it would have easily been the oldest in the forest.&#x000A;&#x000A;&#x000A;There appears to be a piece of paper folded and tucked into a sliver on the stump rings.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x118BF8F0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x118BF8F0">
+    <command xml:space="preserve">look</command>
+    <result xml:space="preserve">Forest&#x000A;Tall, motionless trees branch above and around you. You find a single stump amongst the dense and seemingly endless forest.&#x000A;&#x000A;You can see the first note here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x118BF810"/>
+    </children>
+  </item>
+  <item nodeId="node-0x118BF810">
+    <command xml:space="preserve">take note</command>
+    <result xml:space="preserve">Taken.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x118BF490"/>
+    </children>
+  </item>
+  <item nodeId="node-0x118BF490">
+    <command xml:space="preserve">read note</command>
+    <result xml:space="preserve">As you unfold the parchment, a single match slips out into your hands.&#x000A;&#x000A;Match added to your inventory.&#x000A;&#x000A;You read: &#x000A;Never until the mankind making&#x000A;Bird beast and flower&#x000A;Fathering and all humbling darkness&#x000A;Tells with silence the last light breaking&#x000A;And the still hour&#x000A;Is come of the sea tumbling in harness&#x000A;&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x118BF570"/>
+    </children>
+  </item>
+  <item nodeId="node-0x118BF570">
+    <command xml:space="preserve">move west</command>
+    <result xml:space="preserve">You must name something more substantial.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x118BF5E0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x118BF5E0">
+    <command xml:space="preserve">move</command>
+    <result xml:space="preserve">What do you want to move?&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x118BF650"/>
+    </children>
+  </item>
+  <item nodeId="node-0x118BF650">
+    <command xml:space="preserve">move west</command>
+    <result xml:space="preserve">You must name something more substantial.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x118BF6C0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x118BF6C0">
+    <command xml:space="preserve">look west</command>
+    <result xml:space="preserve">You see the road continues to the railroad crossing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x118BF9D0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x118BF9D0">
+    <command xml:space="preserve">west</command>
+    <result xml:space="preserve">Railroad crossing&#x000A;You stand next to a railway line which crosses a dirt road. The railroad runs from south to north; the dirt road east to west. There is a single wig-wag at the intersection.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x118BFA40"/>
+    </children>
+  </item>
+  <item nodeId="node-0x118BFA40">
+    <command xml:space="preserve">west</command>
+    <result xml:space="preserve">Ruins&#x000A;You can see some unknown ruins and a ghost here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x118BFAB0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x118BFAB0">
+    <command xml:space="preserve">talk to ghost</command>
+    <result xml:space="preserve">The ghost says nothing but hands you a lantern.&#x000A;Lantern added to your inventory.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x118BEE70"/>
+    </children>
+  </item>
+  <item nodeId="node-0x118BEE70">
+    <command xml:space="preserve">inventory</command>
+    <result xml:space="preserve">You are carrying:&#x000A;  a lantern&#x000A;  a match&#x000A;  the first note&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x118BFD50"/>
+    </children>
+  </item>
+  <item nodeId="node-0x118BFD50">
+    <command xml:space="preserve">talk to ghost</command>
+    <result xml:space="preserve">The ghost says nothing but hands you a lantern.&#x000A;Lantern added to your inventory.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x118BFDC0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x118BFDC0">
+    <command xml:space="preserve">talk to ghost</command>
+    <result xml:space="preserve">The ghost says nothing but hands you a lantern.&#x000A;Lantern added to your inventory.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x118BFC70"/>
+    </children>
+  </item>
+  <item nodeId="node-0x118BFC70">
+    <command xml:space="preserve">inventory</command>
+    <result xml:space="preserve">You are carrying:&#x000A;  a lantern&#x000A;  a match&#x000A;  the first note&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x118BFCE0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x118BFCE0">
+    <command xml:space="preserve">examine ghost</command>
+    <result xml:space="preserve">The ghost says nothing but hands you a lantern.&#x000A;Lantern added to your inventory.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x0DD967A0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x0DD967A0">
+    <command xml:space="preserve">look at ghost</command>
+    <result xml:space="preserve">The ghost says nothing but hands you a lantern.&#x000A;Lantern added to your inventory.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+  </item>
+  <item nodeId="node-0x0DD968F0">
+    <command xml:space="preserve">take note</command>
+    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x0DD961F0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x0DD961F0">
+    <command xml:space="preserve">examine stump</command>
+    <result xml:space="preserve">A lone stump sits amongst its living, taller counterparts. Its roots are thick and numerous, extending far beyond the other trees" roots reach. Countless rings circle round the top of the stump. Had the tree that once lived here not been felled, it would have easily been the oldest in the forest.&#x000A;&#x000A;There appears to be a piece of paper folded and tucked into a sliver on the stump rings.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x0DD963B0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x0DD963B0">
+    <command xml:space="preserve">take paper</command>
+    <result xml:space="preserve">Taken.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x0DD96490"/>
+    </children>
+  </item>
+  <item nodeId="node-0x0DD96490">
+    <command xml:space="preserve">read paper</command>
+    <result xml:space="preserve">As you unfold the parchment, a single match slips out into your hands.&#x000A;Match added to your inventory.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x0DD966C0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x0DD966C0">
+    <command xml:space="preserve">read paper</command>
+    <result xml:space="preserve">You read: &#x000A;Never until the mankind making&#x000A; Bird beast and flower&#x000A; Fathering and all humbling darkness&#x000A; Tells with silence the last light breaking&#x000A; And the still hour&#x000A; Is come of the sea tumbling in harness&#x000A; &#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+  </item>
+  <item nodeId="node-0x02E822B8">
+    <command xml:space="preserve">west</command>
+    <result xml:space="preserve">Ruins&#x000A;You can see some unknown ruins here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02E81D08"/>
+      <child nodeId="node-0x02E82558"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02E81D08">
+    <command xml:space="preserve">talk ghost</command>
+    <result xml:space="preserve">I didn't understand that sentence.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02E81E58"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02E81E58">
+    <command xml:space="preserve">talk to ghost</command>
+    <result xml:space="preserve">The ghost says nothing but hands you a lantern.&#x000A;Lantern added to your inventory.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02E824E8"/>
+      <child nodeId="node-0x02E94A20"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02E824E8">
+    <command xml:space="preserve">speak to ghost</command>
+    <result xml:space="preserve">I didn't understand that sentence.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02E81EC8"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02E81EC8">
+    <command xml:space="preserve">speak ghost</command>
+    <result xml:space="preserve">(to the ghost)&#x000A;There is no reply.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02E81A68"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02E81A68">
+    <command xml:space="preserve">examine ruins</command>
+    <result xml:space="preserve">Upon closer inspection, you see the pile of burnt, blackened wood used to be a farm house.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02E81DE8"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02E81DE8">
+    <command xml:space="preserve">l</command>
+    <result xml:space="preserve">Farm Ruins&#x000A;You can see some farm house ruins and a ghost here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02E81C98"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02E81C98">
+    <command xml:space="preserve">examine farm house ruins</command>
+    <result xml:space="preserve">A burnt and decrepit pile of wood planks that used to be a farm house.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02E82248"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02E82248">
+    <command xml:space="preserve">examine ghost</command>
+    <result xml:space="preserve">The ghost says nothing but hands you a lantern.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+  </item>
+  <item nodeId="node-0x02E94A20">
+    <command xml:space="preserve">lantern</command>
+    <result xml:space="preserve">That's not a verb I recognise.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02E94CC0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02E94CC0">
+    <command xml:space="preserve">i</command>
+    <result xml:space="preserve">You are carrying:&#x000A;  a lantern&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02E94710"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02E94710">
+    <command xml:space="preserve">inspect lantern</command>
+    <result xml:space="preserve">That's not a verb I recognise.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02E95350"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02E95350">
+    <command xml:space="preserve">examine lantern</command>
+    <result xml:space="preserve">An old signal lantern made of metal. It has a rectangular body with a sizable and rotatable handle on top. &#x000A;It has a wick, but no oil seems to be inside.&#x000A;The lantern is currently not lit.&#x000A;&#x000A;The lantern is currently switched off.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02E953C0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02E953C0">
+    <command xml:space="preserve">turn on lantern</command>
+    <result xml:space="preserve">You switch the lantern on.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+  </item>
+  <item nodeId="node-0x02E82558">
+    <command xml:space="preserve">examine ghost</command>
+    <result xml:space="preserve">The ghost says nothing but hands you a lantern.&#x000A;Lantern added to your inventory.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02E81918"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02E81918">
+    <command xml:space="preserve">i</command>
+    <result xml:space="preserve">You are carrying:&#x000A;  a lantern&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02E81988"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02E81988">
+    <command xml:space="preserve">examine lantern</command>
+    <result xml:space="preserve">An old signal lantern made of metal. It has a rectangular body with a sizable and rotatable handle on top. &#x000A; It has a wick, but no oil seems to be inside.&#x000A;&#x000A;The lantern is currently switched off.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02E81F38"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02E81F38">
+    <command xml:space="preserve">turn on lantern</command>
+    <result xml:space="preserve">You switch the lantern on.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+  </item>
+</Skein>
